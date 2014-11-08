@@ -9,3 +9,11 @@ theTeams.push(" Sevilla FC");
 theTeamsPlace.push(" Seville.");
 	console.log(theTeams);
 	console.log(theTeamsPlace);
+theTeams.reverse();
+theTeamsPlace.reverse();
+ 	console.log(theTeams);
+ 	console.log(theTeamsPlace);
+	
+};
+
+myTeams();
