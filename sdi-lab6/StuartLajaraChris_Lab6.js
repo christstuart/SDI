@@ -5,3 +5,7 @@ for (var i = 0; i < theTeams.length; i++) {
 	console.log(theTeams[i] + " plays in" + theTeamsPlace[i]);
 	
 }
+theTeams.push(" Sevilla FC");
+theTeamsPlace.push(" Seville.");
+	console.log(theTeams);
+	console.log(theTeamsPlace);
