@@ -1,4 +1,6 @@
 var appleProduct;
+var appleProduct1;
+var appleProduct2;
 
 var appleConstruction = function(proMake, proModel, proYear, proOs) {
 		
@@ -29,4 +31,18 @@ var appleProductFunction = function() {
 					appleData.products[0].model, 
 					appleData.products[0].year, 
 					appleData.products[0].os); 
+				
+			} else if (element == 1) {
+				appleProduct1 = new appleConstruction (
+					appleData.products[1].make, 
+					appleData.products[1].model, 
+					appleData.products[1].year, 
+					appleData.products[1].os);
+			} else if (element == 2) {
+				appleProduct2 = new appleConstruction (
+					appleData.products[2].make, 
+					appleData.products[2].model, 
+					appleData.products[2].year, 
+					appleData.products[2].os);
+			}		
 
