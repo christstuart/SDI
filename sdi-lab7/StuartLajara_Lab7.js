@@ -57,3 +57,12 @@ var appleProductFunction = function() {
 	
 };	
 
+appleProductFunction();
+console.log(appleProduct.make + " is the creator of the " + appleProduct.model + "." + " It came out the year " + appleProduct.year + "." + " It's running " + appleProduct.os + ".");
+console.log(appleProduct1.make + " is the creator of the " + appleProduct1.model + "." + " It came out the year " + appleProduct1.year + "." + " It's running " + appleProduct1.os + ".");
+console.log(appleProduct2.make + " is the creator of the " + appleProduct2.model + "." + " It came out the year " + appleProduct2.year + "." + " It's running " + appleProduct2.os + ".");
+console.log(appleProduct3.make + " is the creator of the " + appleProduct3.model + "." + " It came out the year " + appleProduct3.year + "." + " It's running " + appleProduct3.os + ".");
+appleProduct.newOs("iOS 9");
+console.log(appleProduct.make + " is the creator of the " + appleProduct.model + "." + " It came out the year " + appleProduct.year + "." + " It's running " + appleProduct.os);
+
+
