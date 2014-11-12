@@ -1,0 +1,33 @@
+
+var appleData = {
+
+	"products":
+	    [
+		  {
+			 "make": "Apple",
+			 "model": "iPhone 6",
+			 "year": "2014",
+			 "os": "iOS 8" 
+		  },
+		  {
+			 "make": "Apple",
+		  	"model": "iMac",
+			"year": "2014",
+			"os": "OS X Yosemite"
+		  },
+		  {
+			 "make": "Apple",
+			"model": "iPad",
+			"year": "2014",
+			"os": "iOS 8"	 
+		  },
+		  {
+			 "make": "Apple",
+			"model": "iPod",
+			"year": "2014",
+			"os": "iOS 8"
+		  }
+	   ]
+		
+			
+};
