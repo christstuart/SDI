@@ -39,5 +39,11 @@ for (var i = 0; i < splitNames.length; i++) {
 	
 	newName = newName + splitNames[i] + name3 	  
 	
-}	
+ }	
 	return newName;
+	
+};
+
+var myNewString = myStrings(myNames, myComa, mySlash);
+
+console.log(myNewString)
