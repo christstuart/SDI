@@ -46,4 +46,4 @@ for (var i = 0; i < splitNames.length; i++) {
 
 var myNewString = myStrings(myNames, myComa, mySlash);
 
-console.log(myNewString)
+console.log(myNewString);
