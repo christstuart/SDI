@@ -23,3 +23,15 @@ myAnswer = myConfirmation();
 console.log("It is " + myAnswer + " that your email is working.");
 
 
+var myNames = "Chris, John, Damel";
+var myComa  = ",";
+var mySlash = "/";
+
+
+
+var myStrings = function(name1, name2, name3) {
+	
+	var newName = "";
+	
+	var splitNames = name1.split(name2);
+
