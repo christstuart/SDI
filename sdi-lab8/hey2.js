@@ -35,3 +35,9 @@ var myStrings = function(name1, name2, name3) {
 	
 	var splitNames = name1.split(name2);
 
+for (var i = 0; i < splitNames.length; i++) {
+	
+	newName = newName + splitNames[i] + name3 	  
+	
+}	
+	return newName;
