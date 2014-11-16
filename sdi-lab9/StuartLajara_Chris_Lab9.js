@@ -15,3 +15,23 @@ console.log("Your number formated into 4 spaces is: " + myResult);
 
 
 
+
+// second problem
+var totalConversion;
+var myString = "543";
+var myRealNumber = "Your not inserting a number.";
+
+var myConversion = function(numerino, real) {
+
+
+	if (!isNaN(numerino)) {
+		var returnNumber = Number(numerino);
+			return returnNumber;
+	} else {
+		return real;
+	} 
+	
+};
+
+totalConversion = myConversion(myString, myRealNumber);
+console.log(totalConversion)
