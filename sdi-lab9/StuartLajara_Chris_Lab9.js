@@ -35,3 +35,23 @@ var myConversion = function(numerino, real) {
 
 totalConversion = myConversion(myString, myRealNumber);
 console.log(totalConversion)
+
+
+// third problem
+var mySuperResult;
+
+var myNewYear    = new Date("11/2/2004");
+var myLastYear   = new Date("12/2/2001");
+var myTimeInside = "days" ;
+
+var myDates = function(date1, date2, time) {
+	
+	var difference = date1 - date2
+	difference = parseInt(difference/1000/60/60/24) + " " + time; 
+	return difference;
+	
+	
+};
+
+mySuperResult = myDates(myNewYear, myLastYear, myTimeInside);
+console.log("There's " + mySuperResult + " from 11/2/2001 to 12/2/2004.");
