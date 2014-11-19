@@ -11,8 +11,8 @@ var myNumbers = function(num, num1) {
 	var sum = 0;
 	
 	for (var i = 0; i < 1000; i++) {
-		if (i%num == 0 || i%num1 == 0) {
-			sum = sum + i
+		 if (i%num == 0 || i%num1 == 0) {
+		 sum = sum + i
 		}
 		
 	}
@@ -33,15 +33,15 @@ var myLottery = function() {
 	
 	for ( var i = 0; i < 5; i++) {
 	    
-	 var myMath = Math.floor((Math.random() * (59 + 1) ) + 1 ) 
-		myNumbersInside.push(myMath);
+	      var myMath = Math.floor((Math.random() * (59 + 1) ) + 1 )
+		  myNumbersInside.push(myMath);
 			
 	}
 	
 	for ( var i = 0; i < 1; i++) {
 	    
-	 var myPower = Math.floor(Math.random() * (35 + 1) ) 
-		myNumbersInside.push(myPower);
+	      var myPower = Math.floor(Math.random() * (35 + 1) ) 
+		  myNumbersInside.push(myPower);
 			
 	}
 	
