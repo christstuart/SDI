@@ -8,7 +8,7 @@ var result;
 
 var myNumbers = function(num, num1) {
 	
-	sum = 0;
+	var sum = 0;
 	
 	for (var i = 0; i < 1000; i++) {
 		if (i%num == 0 || i%num1 == 0) {
